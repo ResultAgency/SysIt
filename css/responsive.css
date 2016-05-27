@@ -1,0 +1,245 @@
+@media (max-width: 991px) {
+    .header-bg video.fillWidth {
+        display: none;
+    }
+
+}
+@media (min-width: 768px) {
+    .project{
+        width: 90%;
+        padding: 20px 50px;
+    }
+    header h3{
+        font-family: "SegoeUISemiBold";
+        font-size: 1.429em;
+        margin: 0 0 1em 0;
+    }
+    header h1{
+        font-family: "helveticaneuecyr-medium";
+        font-size: 3.429em;
+        margin: 0 0 0.3em 0;
+    }
+    header h2{
+        font-family: "helveticaneuecyr-light";
+        font-size: 2.286em;
+        margin: 0 0 3.5em 0;
+    }
+    section h2{
+        font-size: 2.857em;
+    }
+    #projects h2{
+        font-size: 2.857em;
+    }
+    section h3{
+        font-size: 2.571em;
+    }
+    .mac-audit{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: -25px;
+        width: 50%;
+        z-index: -1;
+    }
+    #freeaud p{
+        width: 50%;
+        margin: auto;
+    }
+    form button.btn-custom {
+        margin: 5px 0;
+    }
+    .calculator p{
+        font-size: 1.429em;
+    }
+    .calculator .price{
+        font-family: helveticaneuecyr-light;
+        font-size: 2.571em;
+    }
+    .btn-custom-3{
+        font-family: "SegoeUILight";
+        font-size: 1.286em;
+    }
+    #schema p{
+        font-size: 1.143em;
+    }
+    /*.schema {*/
+        /*width: 12vh;*/
+        /*height: 12vh;*/
+    /*}*/
+    .schema:after{
+        content: " ";
+        height: 1px;
+        width: 150%;
+        background: #008bd2;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: -1;
+    }
+    #garanty p{
+        text-align: left;
+        width: 80%;
+        margin: 1em auto;
+    }
+    .project .header{
+        text-align: center;
+    }
+    .project .header h4{
+        font-size: 1.714em;
+    }
+    .project .target h4{
+        font-size: 2.143em;
+    }
+    .project .target p{
+        font-size: 1.286em;
+    }
+    .project .body h4{
+        font-size: 2.143em;
+    }
+    .project .body p{
+        font-size: 1.286em;
+        padding-right: 5%;
+    }
+    .qual {
+        width: 10em !important;
+    }
+    .customPrevBtn,.customNextBtn{
+        display: block;
+    }
+    .customPrevBtn{
+        left: 6%;
+    }
+    .customNextBtn{
+        right: 6%;
+    }
+    #our-team p{
+        font-size: 1.143em;
+    }
+    #our-team h4{
+        font-size: 1.286em;
+    }
+    .schema{
+        width: 70%;
+    }
+    .modal{
+        background: rgba(0,0,0,0.8);
+    }
+    .close{
+        height: 1em;
+        width: 1em;
+        top: 0;
+        right: 0;
+        position: absolute;
+        transform: translate(100%,-100%);
+        opacity: 1;
+    }
+    .close .icon{
+        width: 100%;
+        fill: white;
+    }
+    .modal .box{
+        width: 550px !important;
+        display: table;
+        margin: auto;
+        transform: translate(0,15%);
+        text-align: center;
+        background: linear-gradient(90deg, rgba(241, 241, 241, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);
+        padding: 10px 40px 40px 40px;
+        position: relative;
+        border-radius: 15px;
+    }
+    .modal .box h3{
+        font-family: helveticaneuecyr-roman;
+        font-size: 2.143em;
+    }
+    .modal .box p{
+        font-family: helveticaneuecyr-light;
+        font-size: 1.286em;
+    }
+    .modal .box input{
+        width: 260px;
+        font-family: helveticaneuecyr-roman;
+        margin: 8px 0;
+    }
+    #service p{
+        width: 50%;
+    }
+    .modal .kapuchino{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(50%,50%);
+        width: 40%;
+        display: block;
+    }
+}
+@media (min-width:992px) {
+    .mac-audit{
+        width: 39%;
+    }
+    #garanty p{
+        text-align: left;
+        width: 70%;
+    }
+    .customPrevBtn{
+        left: 14%;
+        transform: rotate(180deg);
+    }
+    .customNextBtn{
+        right: 14%;
+    }
+    .schema:after{
+        content: " ";
+        height: 1px;
+        width: 150%;
+        background: #008bd2;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: -1;
+    }
+    .modal .box{
+        width: 650px !important;
+    }
+
+}
+@media (min-width:1200px) {
+    .col-lg-2_5{
+        width: 20%;
+    }
+    .mac-audit{
+        width: 27%;
+    }
+    .schema:after{
+        content: " ";
+        height: 1px;
+        width: 150%;
+        background: #008bd2;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: -1;
+    }
+    .schema{
+        position: relative;
+        width: 60%;
+        margin: auto;
+        border: 4px solid white;
+        border-radius: 50%;
+        background: white;
+        fill:#008bd1;
+        stroke: #008bd1;
+        transition: 0.6s;
+    }
+    #garanty p{
+        text-align: left;
+        width: 60%;
+    }
+    .customPrevBtn{
+        left: 15%;
+        transform: rotate(180deg);
+    }
+    .customNextBtn{
+        right: 15%;
+    }
+    navbar-custom}
