@@ -1,4 +1,7 @@
 Options +FollowSymLinks
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www.sysit\.com\.ua$ [NC]
-RewriteRule ^(.*)$ http://sysit.com.ua/$1 [R=301,L]
+RewriteRule ^(.*[^/]) http://sysit.com.ua/$1/ [R=301,L]
+RewriteBase /
+
+RewriteRule ^(.*)$ index.php [L]
